@@ -4,9 +4,9 @@ from lists.views import home_page
 from django.http import HttpRequest
 from django.template.loader import render_to_string
 
-class SmokeTest(TestCase):
-  def test_bad_maths(self):
-    self.assertEqual(1+1,2)
+#class SmokeTest(TestCase):
+#  def test_bad_maths(self):
+#    self.assertEqual(1+1,2)
 
 class HomePageTest(TestCase):
   def test_root_url_resolves_to_home_page(self):
